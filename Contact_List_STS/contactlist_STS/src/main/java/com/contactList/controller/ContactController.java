@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/contact")
 public class ContactController {
+
 	@Autowired
 	private ContactService service;
 
