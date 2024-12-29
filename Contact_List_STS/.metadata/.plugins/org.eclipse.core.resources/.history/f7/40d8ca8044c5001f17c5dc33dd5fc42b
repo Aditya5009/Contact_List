@@ -1,0 +1,7 @@
+package com.contactList.repository;
+
+import com.contactList.model.Contact;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ContactRepository extends JpaRepository<Contact, Long> {
+}

@@ -1,0 +1,13 @@
+package com.contactList;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ContactlistStsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ContactlistStsApplication.class, args);
+	}
+
+}

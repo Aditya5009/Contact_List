@@ -1,0 +1,5 @@
+package com.contactList.repository;
+
+public class ContactRepository {
+
+}

@@ -1,0 +1,5 @@
+package com.contactList.model;
+
+public class Contact {
+
+}
