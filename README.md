@@ -17,3 +17,5 @@
 	e. npm install react-router-dom --save
 3. To run frontend use the following command
 	a. npm run dev
+4. To terminate frontend, use the command
+	a. ctrl + c
