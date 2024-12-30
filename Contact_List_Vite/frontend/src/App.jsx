@@ -13,16 +13,16 @@ function App() {
         <Header />
 
         <Routes>
-          {/* http;//locahost:3000/ */}
+          {/* http;//locahost:5173/ */}
           <Route path='/' element={<ListContacts />}></Route>
 
-          {/* http;//locahost:3000/employees */}
+          {/* http;//locahost:5173/contact */}
           <Route path='/contact' element={<ListContacts />}></Route>
 
-          {/* http;//locahost:3000/add-employee */}
+          {/* http;//locahost:3000/add-contact */}
           <Route path='/add-contact' element={<Contact />}></Route>
 
-          {/* http;//locahost:3000/edit-employee/1 */}
+          {/* http;//locahost:3000/edit-contact/1 */}
           <Route path='/edit-contact/:id' element={<Contact />}></Route>
 
 
